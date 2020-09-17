@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikayetvar</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="left">
+                    <img src="resources/img/logo.svg" alt="sikayetvar">
+                    <a href="#" id="posts">Posts</a>
+                </div>
+
+                <div class="right">
+                    <button class="Login">Login</button>
+                </div>
+            </nav>
+        </header>
+        <main id="main">
+        </main>
+        <footer>
+            <div class="upper">
+                <div class="text">
+                    <h3>Thank you for supporting us!</h3>
+                    <p>Let's get in touch on any of these platforms.</p>
+                </div>
+                <div class="social-media">
+                    <div class="icon twitter">
+                        <a href="#"><img src="resources/img/twitter.png" alt="Twitter Icon"></a>
+                    </div>
+                    <div class="icon facebook">
+                        <a href="#"><img src="resources/img/facebook.png" alt="Facebook Icon"></a>
+                    </div>
+                    <div class="icon dribble">
+                        <a href="#"><img src="resources/img/dribble.png" alt="Dribble Icon"></a>
+                    </div>
+                    <div class="icon github">
+                        <a href="#"><img src="resources/img/github.png" alt="Github Icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="copyright">&copy; 2018<span>Şikayetvar</span></div>
+                <a href="#">Posts</a>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal-container hidden" id="modal-container">
+        <div class="modal-content" id="modal-content">
+            <div class="modal-header">
+                <h4>Düzenle</h4>
+                <span class="close" id="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <h5>Title</h5>
+                <input type="text" name="title" id="post-title">
+                <h5>Body</h5>
+                <textarea name="body" id="post-body" cols="30" rows="5"></textarea>
+            </div>
+            <div id="message"></div>
+            <button id="update" id="update" data-postid="">Güncelle</button>
+        </div>
+    </div>
+    <script src="resources/js/app.js" type="module"></script>
+</body>
+
+</html>
