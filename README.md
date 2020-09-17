@@ -1,2 +1,2 @@
 
-## Live: https://bilalkaya.github.io/projetest/.
+## Live: https://bilalkaya.github.io/projetest/
