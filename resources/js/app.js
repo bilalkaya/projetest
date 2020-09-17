@@ -7,7 +7,7 @@ const state = {
     postObj: null, // Post Object reference
     postList: null, // Post List
     post: null, // Current Post
-    userInfo: null //Post User  
+    user: null //Post User  
 };
 
 const init = async () => {
